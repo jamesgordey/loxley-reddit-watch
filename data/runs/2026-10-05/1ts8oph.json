@@ -1,0 +1,371 @@
+{
+ "thread": {
+  "id": "1ts8oph",
+  "title": "My electricity usage barely changed at all but my comed electric bill went up by 50% what gives?",
+  "subreddit": "AskChicago",
+  "author": "RevacholAndChill",
+  "date": "2026-05-30",
+  "age_days": 128.1,
+  "score": 46,
+  "num_comments": 40,
+  "closed": false,
+  "flair": "",
+  "selftext": "If I am doing everything right, why should I have to pay more? If other people/corporations are using more electricity why do I have to pay for that?  ",
+  "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/"
+ },
+ "new_thread": true,
+ "new_comment_count": 39,
+ "comments": [
+  {
+   "id": "ootg3gj",
+   "author": "carrlson",
+   "date": "2026-05-30",
+   "score": 40,
+   "is_op": false,
+   "body": "https://www.citizensutilityboard.org/blog/2026/05/21/cub-alerts-comed-customers-of-new-summer-power-price-10-399%C2%A2-per-kwh/",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootg3gj/"
+  },
+  {
+   "id": "ootrx7u",
+   "author": "One_Abalone_2582",
+   "date": "2026-05-30",
+   "score": 18,
+   "is_op": false,
+   "body": "I\u2019m not a big automod guy but I feel like it needs to be here for this.  Feels like we\u2019re comed customer support at this point",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootrx7u/"
+  },
+  {
+   "id": "oote6nl",
+   "author": "jiggabot",
+   "date": "2026-05-30",
+   "score": 11,
+   "is_op": false,
+   "body": "50% is high, even accounting for the increased rates. Do you have any demand charges? Are you on a variable rate? Did the bill just cover this period or does it all cover a portion of a previous period too?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oote6nl/"
+  },
+  {
+   "id": "ootb2dj",
+   "author": "light_sweet_crude",
+   "date": "2026-05-30",
+   "score": 10,
+   "is_op": false,
+   "body": "Supply and demand, same reason you have to pay more for gasoline during the summer regardless of how much you use? That said, any chance there's something wrong with your meter?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootb2dj/"
+  },
+  {
+   "id": "ootdt3l",
+   "author": "jiggabot",
+   "date": "2026-05-30",
+   "score": 9,
+   "is_op": false,
+   "body": "Chicago/ComEd is on the PJM grid, which covers a huge chunk of the country. Localized changes don't do much. \n\nNew demand (data centers) and retired power plants have driven up the auction price on PJM across the grid.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootdt3l/"
+  },
+  {
+   "id": "oowtndp",
+   "author": "Visuallytame",
+   "date": "2026-05-31",
+   "score": 8,
+   "is_op": false,
+   "body": "The prices are up because of data centers. A line item on your bill, the purchased electricity charge, is significantly higher because of the winter storm. Its leveled out because of another line item in your taxes and fees called the carbon free resources adjustment (i think its called that). Look at your bill this month and you'll see. Overall our supply prices are higher because of data centers. No need to blindly be a dick to people when you dont know what youre talking about lol.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oowtndp/"
+  },
+  {
+   "id": "ootc2wm",
+   "author": "paper_wavements",
+   "date": "2026-05-30",
+   "score": 7,
+   "is_op": false,
+   "body": "Did you see the part where OP said their electricity usage barely changed?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootc2wm/"
+  },
+  {
+   "id": "ootcwgu",
+   "author": "Di-electric-union",
+   "date": "2026-05-30",
+   "score": 7,
+   "is_op": false,
+   "body": "ComEd is supplying a bunch of new data centers being built so the demand is definitely increasing rapidly",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootcwgu/"
+  },
+  {
+   "id": "ootbfkk",
+   "author": "These_Gas9381",
+   "date": "2026-05-30",
+   "score": 4,
+   "is_op": false,
+   "body": "Double check against previous bills, look at the amount and rate you are charged with.  Should give you a better line of inquiry",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootbfkk/"
+  },
+  {
+   "id": "ooxzbsk",
+   "author": "Visuallytame",
+   "date": "2026-05-31",
+   "score": 3,
+   "is_op": false,
+   "body": "Our rates went from about 6c two years ago to 10.4c right now lol. PJM, our grid operator, released an assessment of the past 3 capacity auctions and found that data center forecasts were 45% or over 200B of the costs. The price per mw-day went from ~$30 to ~$269. You don't know what youre talking about.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooxzbsk/"
+  },
+  {
+   "id": "oouic6p",
+   "author": "HerrickRd",
+   "date": "2026-05-30",
+   "score": 3,
+   "is_op": false,
+   "body": "Take a look at you bill, the price adjustment for May under supply was insane, and literally doubled the cost of supply (9cents a kwh).    June price adjustment has already been published and it is back down to \"normal\" of about 1 cent a kwh. \n\nThis was a weird month but not a trend (yet).",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oouic6p/"
+  },
+  {
+   "id": "ootbzqo",
+   "author": "ApprehensiveLion67",
+   "date": "2026-05-30",
+   "score": 2,
+   "is_op": false,
+   "body": "Has Chicago had any new data centers put up recently?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootbzqo/"
+  },
+  {
+   "id": "oousldi",
+   "author": "One_Recognition_5044",
+   "date": "2026-05-31",
+   "score": 2,
+   "is_op": false,
+   "body": "Post your before and after bills. No one can prove help without that detail.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oousldi/"
+  },
+  {
+   "id": "oox28vk",
+   "author": "Strange-Jury-619",
+   "date": "2026-05-31",
+   "score": 2,
+   "is_op": false,
+   "body": "Any Data centers in your area?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oox28vk/"
+  },
+  {
+   "id": "opd3187",
+   "author": "Pascal6662",
+   "date": "2026-06-02",
+   "score": 1,
+   "is_op": false,
+   "body": "That new rate only took effect June 1st. Anyone complaining about their bill now is seeing the PEA spike.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/opd3187/"
+  },
+  {
+   "id": "oov1ug7",
+   "author": "ChiFleurs",
+   "date": "2026-05-31",
+   "score": 1,
+   "is_op": false,
+   "body": "If people are on a smart meter the per kilowatt hour pricing has been highly variable in at times has been over a dollar a kilowatt hour! It's absolutely insane and should be illegal.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oov1ug7/"
+  },
+  {
+   "id": "oovsau3",
+   "author": "Good_Ad2172",
+   "date": "2026-05-31",
+   "score": 1,
+   "is_op": false,
+   "body": "did you fall for one of those door to door third party provider scams?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oovsau3/"
+  },
+  {
+   "id": "opd2587",
+   "author": "Pascal6662",
+   "date": "2026-06-02",
+   "score": 1,
+   "is_op": false,
+   "body": "https://www.citizensutilityboard.org/blog/2026/04/30/cub-qa-may-price-spike-on-comed-bills/",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/opd2587/"
+  },
+  {
+   "id": "ootb8mu",
+   "author": "DeconstructionistMug",
+   "date": "2026-05-30",
+   "score": 0,
+   "is_op": false,
+   "body": "Not defending the exact amount of your bill which likely exceeds these issues, but the cost of generating electricity and maintaining infrastructure have risen like everything else.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootb8mu/"
+  },
+  {
+   "id": "oouvnjn",
+   "author": "LeadPaintChipsnDip",
+   "date": "2026-05-31",
+   "score": 0,
+   "is_op": false,
+   "body": "Are you with comed or some third party? None of comed\u2019s rates have changed in months",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oouvnjn/"
+  },
+  {
+   "id": "ooxysac",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-31",
+   "score": -2,
+   "is_op": false,
+   "body": "Bro you should look at the rates on your actual bill, then head on over to Google and type \u201ccomed electrical price adjustment may 2026\u201d. \n\nGod damn lol",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooxysac/"
+  },
+  {
+   "id": "ootce21",
+   "author": "SaltyPlantain1503",
+   "date": "2026-05-30",
+   "score": -5,
+   "is_op": false,
+   "body": "Uhhh data centers..  you keeping up with the news?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootce21/"
+  },
+  {
+   "id": "oou5o85",
+   "author": "003E003",
+   "date": "2026-05-30",
+   "score": -6,
+   "is_op": false,
+   "body": "\"doing everything right\"  LoL. What does that even mean?\n\n Do you think there are some electricity rules that you have to follow and if you do then your bill doesn't increase? Who gave you that idea? \n\nI'm guessing you skipped economics class.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oou5o85/"
+  },
+  {
+   "id": "ootfxyn",
+   "author": "alilhillbilly",
+   "date": "2026-05-30",
+   "score": -7,
+   "is_op": false,
+   "body": "You read the news at all but chance? \n\nSeen anything about energy? \n\nMaybe about a war? Or different giant centers being built everywhere?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootfxyn/"
+  },
+  {
+   "id": "oouxi6s",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-31",
+   "score": -18,
+   "is_op": false,
+   "body": "Or, you can read the publication from comed, Mr Keynes. Lol this fuckin guy",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oouxi6s/"
+  },
+  {
+   "id": "ootb9gd",
+   "author": "Rock_man_bears_fan",
+   "date": "2026-05-30",
+   "score": 59,
+   "is_op": false,
+   "body": "Prices went up",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootb9gd/"
+  },
+  {
+   "id": "ootcmop",
+   "author": "slutty_muppet",
+   "date": "2026-05-30",
+   "score": 57,
+   "is_op": false,
+   "body": "We need a pinned post about this",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootcmop/"
+  },
+  {
+   "id": "ootgevu",
+   "author": "blipsman",
+   "date": "2026-05-30",
+   "score": 53,
+   "is_op": false,
+   "body": "Demand due to data centers",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootgevu/"
+  },
+  {
+   "id": "ooth82x",
+   "author": "Rock_man_bears_fan",
+   "date": "2026-05-30",
+   "score": 19,
+   "is_op": false,
+   "body": "It\u2019s basic supply and demand. Increased demand = increases prices",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooth82x/"
+  },
+  {
+   "id": "ootfjpr",
+   "author": "jaykrown",
+   "date": "2026-05-30",
+   "score": 5,
+   "is_op": false,
+   "body": "Yea mine seemed high this past month as well.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootfjpr/"
+  },
+  {
+   "id": "oous444",
+   "author": "musicislife04",
+   "date": "2026-05-31",
+   "score": 3,
+   "is_op": false,
+   "body": "I heard on the radio there were some energy credits from some nuclear power something that expired this months. The credits have been in effect for years and are now gone so they will be charging more to everyone :(",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/oous444/"
+  },
+  {
+   "id": "ooy0rcx",
+   "author": "Visuallytame",
+   "date": "2026-05-31",
+   "score": 2,
+   "is_op": false,
+   "body": "Lol",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooy0rcx/"
+  },
+  {
+   "id": "op1udq2",
+   "author": "LengthinessRadiant15",
+   "date": "2026-06-01",
+   "score": 1,
+   "is_op": false,
+   "body": "Same!!",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/op1udq2/"
+  },
+  {
+   "id": "ooy13zk",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-31",
+   "score": 0,
+   "is_op": false,
+   "body": "Well if you truely believe it\u2019s all data centers, make sure you vote accordingly to increase supply ;)",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooy13zk/"
+  },
+  {
+   "id": "ooy0kbm",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-31",
+   "score": -1,
+   "is_op": false,
+   "body": "Exactly - THATs demand. \n\nThe 1x in May, is not from data centers. It\u2019s from winter storm fern.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ooy0kbm/"
+  },
+  {
+   "id": "ootbg3o",
+   "author": "NickBurnsCompanyGuy",
+   "date": "2026-05-30",
+   "score": -2,
+   "is_op": false,
+   "body": "It's also summer, so you've likely turned on your AC, which in the winter your heater runs on gas, your AC is all electricity.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootbg3o/"
+  },
+  {
+   "id": "ootcmgj",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-30",
+   "score": -2,
+   "is_op": false,
+   "body": "Get data centered\u2026",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootcmgj/"
+  },
+  {
+   "id": "ootdoqj",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-30",
+   "score": -30,
+   "is_op": false,
+   "body": "Our energy comes from nuclear and wind - what exactly went up lmao",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootdoqj/"
+  },
+  {
+   "id": "ootgtvr",
+   "author": "Fancy_Ad3809",
+   "date": "2026-05-30",
+   "score": -33,
+   "is_op": false,
+   "body": "Sounds like socialized cost and privatized income to me. \n\nAlso this month isn\u2019t from data centers. It\u2019s the shortage from winter storm fern.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ts8oph/my_electricity_usage_barely_changed_at_all_but_my/ootgtvr/"
+  }
+ ]
+}

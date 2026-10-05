@@ -1,0 +1,245 @@
+{
+ "thread": {
+  "id": "1wyfnvc",
+  "title": "Got tired of guessing what ComEd's hourly price would actually be, so I built a forecaster",
+  "subreddit": "ChicagoSuburbs",
+  "author": "pablitorun",
+  "date": "2026-10-05",
+  "age_days": 0.2,
+  "score": 1,
+  "num_comments": 0,
+  "closed": false,
+  "flair": "",
+  "selftext": "\\------------------------------\n\nThere's no monetization here and zero plans for any. It runs on free data sources that explicitly don't allow commercial use. I just thought it was pretty cool, and it could be useful for anyone trying to keep their electric bill down.\n\n\\------------------------------\n\nI'm on ComEd's hourly pricing (RRTP). Two things kept bugging me:\n\n\n\n1. The day-ahead prices ComEd publishes are often pretty far off from what you actually get billed.\n\n2. There's no good way to see what the current hour is likely to end up at. You only see the 5-minute prices as they come in, and the hourly average is what you pay.\n\n\n\nSo with a lot of help from Claude (Anthropic's AI), I built a small site that forecasts it:\n\n\n\n[http://comed-forecast-759353037725.s3-website-us-east-1.amazonaws.com/](http://comed-forecast-759353037725.s3-website-us-east-1.amazonaws.com/)\n\n\n\nWhat it shows:\n\n\n\n\\- This hour's likely final price. It combines the 5-minute prices already in with a forecast for the rest of the hour, so it gets sharper as the hour goes on.\n\n\\- The next 24 hours, hour by hour, next to ComEd's day-ahead price, with a shaded \"likely range\" for each hour.\n\n\\- Spike odds: the chance each hour averages over 10\u00a2.\n\n\\- Cheapest and priciest hours ahead, for timing laundry, dishwasher, EV charging, etc.\n\n\n\nIt reruns every 5 minutes. It's a set of neural networks trained on ComEd's price history since 2018, plus weather across northern Illinois, PJM's load forecasts and grid conditions (outages, wind and solar output, hot- and cold-weather alerts), and natural gas prices.\n\n\n\nIt can also send email alerts: an hourly summary, a heads-up when the current hour is running well above or below the day's average, and a warning when a price spike looks likely in the next few hours. I just haven't wired up a way to sign up for those on the web page yet.\n\n\n\nHow it's done, tested on the past year, which the model never saw during training:\n\n\n\n\\- Next 24 hours: off by about 1.8\u00a2/kWh per hour on average, vs about 2.1\u00a2 for ComEd's day-ahead price. To be fair, a big chunk of that gap is the late-January cold snap, when the day-ahead was way too high. The rest of the year they're closer.\n\n\\- The hour you're in: about 1.3\u00a2 off at the start of the hour, vs about 1.9\u00a2 if you assume prices stay where they are.\n\n\\- Spike odds: when it says 50% or better odds of going over 10\u00a2, the hour did about two-thirds of the time. It still misses some spikes.\n\n\n\nNot affiliated with ComEd in any way, not advice, just a hobby project. Happy to hear feedback or answer questions about how it works.",
+  "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/"
+ },
+ "new_thread": true,
+ "new_comment_count": 25,
+ "comments": [
+  {
+   "id": "pe2konn",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "1. No one has to. Hourly pricing is opt-in. If you don't sign up, you stay on ComEd's standard fixed rate and nothing changes for you.\n\n2. Even the \"fixed\" rate isn't some magic flat price. It's already tied to the wholesale electricity market. ComEd's supply rate is set from power the Illinois Power Agency buys in advance through competitive procurements, plus what PJM's capacity auctions cost, and it gets reset periodically. That's a big part of why bills jumped after PJM's recent capacity auctions. On top of that, there's a monthly Purchased Electricity Adjustment on your bill that trues up the difference between what ComEd actually paid for power and what it collected, within a cap of ab",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2konn/"
+  },
+  {
+   "id": "pe2vb81",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "Aws tells you exactly how much power I consumed for training this model. 1kwh.  Anthropic doesn\u2019t release their power numbers but the inference was vastly less than the training time. I don\u2019t really want to debate the merits of AI with you but to make up for  my naughty 1 kWh usage I\u2019ll take public transit tomorrow.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2vb81/"
+  },
+  {
+   "id": "pe2kvqj",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "You can save lots of money if you are willing to adjust your use.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2kvqj/"
+  },
+  {
+   "id": "pe2l675",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "I fully admit to using AI. to build this.  It would have taken me weeks to do this by hand instead of the 4 hours it took.  It does seem to work very well though.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2l675/"
+  },
+  {
+   "id": "pe2w2ar",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "Sir this is a webpage.\n\nAlso I absolutely know how to build this which I was able to get it working very nicely in a few hours. Trust me the environmental cost of me making this from scratch would have been orders of magnitude greater.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2w2ar/"
+  },
+  {
+   "id": "pe2eg94",
+   "author": "No-Phrase-4692",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Cool that you did this, but again, why should you have to? Why does everything have to be financialized? I\u2019d rather take the certainty of one flat rate over having to analyze up to the minute pricing, especially when severe weather strikes.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2eg94/"
+  },
+  {
+   "id": "pe2xrzd",
+   "author": "petty_bitz",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Does it tell you the amount of environmental impact it has?",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2xrzd/"
+  },
+  {
+   "id": "pe3296a",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "There\u2019s another Boomer who can\u2019t tell the difference between usb cables, so he asks reddit, telling others AI makes no difference in your bills.\n\nNo one brought up AI bills.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe3296a/"
+  },
+  {
+   "id": "pe2xipg",
+   "author": "Alternative-Bat-2462",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "You realize that with pretty normal use you naturally come out ahead. A couple simple changes such as pre cooling and without doing anything else you save 30%. \n\nSure you get some crazy high days, but you also get days that you literally make money. \n\nSlap on an EV and I basically fuel my car for nothing when it\u2019s $5 a gallon for a car. \n\nThere are people who are naturally analytic, but if I can save $500-$700 a year for doing nearly nothing why wouldn\u2019t I? Plus the added benefit of being able to run by house at 65\u00b0 overnight in the summer for nearly free.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2xipg/"
+  },
+  {
+   "id": "pe2esp4",
+   "author": "chirunner4ever",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "The more I hear, the less I understand any benefit of moving to hourly pricing",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2esp4/"
+  },
+  {
+   "id": "pe2yeqw",
+   "author": "Alternative-Bat-2462",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "I dunno, I do nearly nothing and save $500-$700 a year off my power bill. It\u2019s not a ton,  it it\u2019s not nothing. \n\nIt also means I drive my EV for next to nothing charging overnight.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2yeqw/"
+  },
+  {
+   "id": "pe2msl9",
+   "author": "No-Phrase-4692",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "This is what AI should be used for. Even if I disagree with hourly pricing in general, building apps more quickly and efficiently is way better than using it to steal art and music and export crappy knockoffs",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2msl9/"
+  },
+  {
+   "id": "pe2sug0",
+   "author": "michaelz08",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Thank you. I\u2019ve been debating switching to hourly rates and your tool will definitely help me if I do.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2sug0/"
+  },
+  {
+   "id": "pe30nek",
+   "author": "sinatrablueeyes",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Did you honestly believe a corporation would give you an option to pay them less money that actually works?",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe30nek/"
+  },
+  {
+   "id": "pe3653w",
+   "author": "TheUnreal03",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "u/pablitorun   you have historical data for 5min prices? specifically looking for data for 9/16/2026. I already have automations that pull hourly average prices(forecasted vs actual posted as that hour passes) and I've been comparing those actual to the rates comed actually billed us for that specific hour of specific date and I'm seeing discrepancies.   I can share more but to put this in perspective for 5-6pm on 9/16 the hourly avg supply price was 61.4c, however billing graphs on [https://hourlypricing.comed.com/bc-graphs-hourly](https://hourlypricing.comed.com/bc-graphs-hourly) page shows 253.76c.   I am trying to figure out where they got the 253.76 from, because they have several API e",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe3653w/"
+  },
+  {
+   "id": "pe3960w",
+   "author": "TheUnreal03",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "or for any dates for billing period that closed on 9/28",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe3960w/"
+  },
+  {
+   "id": "pe2a527",
+   "author": "kdbleeep",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Neat!",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2a527/"
+  },
+  {
+   "id": "pe2sc4g",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": ">\u00a0b) It's better for the environment. Price spikes are \u00a0when the grid runs its least efficient, highest-emitting peaker plants. Using less during those hours means less of them run.\n\n\nThe irony of having chatgpt write this for you, you post it, all while using AI to vibe code this lmao",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2sc4g/"
+  },
+  {
+   "id": "pe2y6ht",
+   "author": "Alternative-Bat-2462",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "These are the same rubes who think that AI is causing their power cost increase and not relaxing there has been no grid investment in 20 years. That we have costed on neutral as manufacturing leaves and individual use increases. \n\nCrazy to think that consumption would ever increase yet our elected officials choose to do nothing proactive.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2y6ht/"
+  },
+  {
+   "id": "pe2vfu7",
+   "author": "petty_bitz",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "I got that too. It\u2019s a choice for sure",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2vfu7/"
+  },
+  {
+   "id": "pe2tf1f",
+   "author": "NaiveChoiceMaker",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "People only post when the price spikes. They never post when it crashes and they are getting electricity for nearly free.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2tf1f/"
+  },
+  {
+   "id": "pe2jvkw",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Ai slop",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2jvkw/"
+  },
+  {
+   "id": "pe2pbr6",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "I\u2019m sure the malware it gives out once the vibe coder stops caring but doesn\u2019t delete it is totally worth it. Along with the destruction of the environment because he\u2019s too unskilled to make it himself",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe2pbr6/"
+  },
+  {
+   "id": "pe31j3s",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "You can\u2019t even write a complete sentence without using AI.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe31j3s/"
+  },
+  {
+   "id": "pe36brj",
+   "author": "ChicagoSuburbs-ModTeam",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "Rule 2.\n\nAny post must be related in some way to a community or person/place from the Chicagoland suburbs. \n\nIf your post is about anything in the city of Chicago, check out r/AskChicago\n\nIf your post is about something impacting the entire state, check out r/Illinois",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe36brj/"
+  }
+ ]
+}

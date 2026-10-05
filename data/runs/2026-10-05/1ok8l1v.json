@@ -1,0 +1,506 @@
+{
+ "thread": {
+  "id": "1ok8l1v",
+  "title": "Does anyone else\u2019s ComEd bill usage continue to increase inexplicably?",
+  "subreddit": "AskChicago",
+  "author": "ProMorpher",
+  "date": "2025-10-30",
+  "age_days": 340.1,
+  "score": 126,
+  "num_comments": 50,
+  "closed": false,
+  "flair": "",
+  "selftext": "It\u2019s bad enough that ComEd\u2019s rates continue to soar, but anyone else experiencing year-over-year usage increases without any sort of logical explanation? Same house. Same residents. Same appliances. Same schedules.\n\nIf I go back a few more years, it makes even less sense because we had this huge air conditioner that sounded like an airplane taking off. Since spending $10k on a high-end energy efficient air conditioner, switching from incandescent to LED bulbs, redoing the insulation in the attic, etc., we\u2019ve watched our usage skyrocket.\n\nWondering if an energy audit would be of any value. I welcome all thoughts on this one, especially from those who have experienced something similar.\n\n",
+  "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/"
+ },
+ "new_thread": true,
+ "new_comment_count": 54,
+ "comments": [
+  {
+   "id": "nmjpohn",
+   "author": "ProMorpher",
+   "date": "2025-11-01",
+   "score": 2,
+   "is_op": true,
+   "body": "Exactly, I would love more details on how to investigate this further.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmjpohn/"
+  },
+  {
+   "id": "nm8t1px",
+   "author": "TL20LBS",
+   "date": "2025-10-30",
+   "score": 117,
+   "is_op": false,
+   "body": "I am out of my apartment 3-4 days per week traveling. I unplug everything except the fridge. My bill has gone from $25 a month to $55.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm8t1px/"
+  },
+  {
+   "id": "nm8vffd",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-10-30",
+   "score": 84,
+   "is_op": false,
+   "body": "Yeah ComEd\u2019s supply charge increased bc the regional grid operator PJM Interconnection held its annual capacity auction and saw sharply higher prices. \n\nCapacity means the grid paying for enough electricity generation *ready* to meet peak demand, rather than what\u2019s used right now. ComEd passes this part dollar for dollar to customers; it doesn\u2019t markup this portion itself. \n\nDemand for electricity surged in the region, in part from effects of climate change needing increased A/C usage, electrification of buildings/transport, and large industrial/technology loads. \n\nData centers / AI / tech hubs are a major piece of this and are driving up the load forecasts and thus the capacity cost spread ",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm8vffd/"
+  },
+  {
+   "id": "nm8wi7a",
+   "author": "Dependent_Affect_62",
+   "date": "2025-10-30",
+   "score": 20,
+   "is_op": false,
+   "body": "https://www.pbs.org/newshour/amp/show/how-ai-infrastructure-is-driving-a-sharp-rise-in-electricity-bills",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm8wi7a/"
+  },
+  {
+   "id": "nm9nel2",
+   "author": "GalaxyAblaze",
+   "date": "2025-10-30",
+   "score": 16,
+   "is_op": false,
+   "body": "It has very little to do with A/C or heat in my understanding. I could be wrong, but I\u2019m fairly certain it\u2019s AI. [AI spiking electric bills](https://www.pcmag.com/news/shocked-by-your-electric-bill-ai-fueled-shortage-to-hike-prices-20-in-these) Not even discussing AI\u2019s intense harm to our climate, it\u2019s fucking us in the wallet too!!",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9nel2/"
+  },
+  {
+   "id": "nmazz06",
+   "author": "Whinke",
+   "date": "2025-10-31",
+   "score": 11,
+   "is_op": false,
+   "body": "They should just ban new data centers in the state. The jobs they provide are basically non existant outside of short term construction work, and what do we get out of it? Higher electricity prices and ugly eye sore buildings.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmazz06/"
+  },
+  {
+   "id": "nm8uinq",
+   "author": "mzanon100",
+   "date": "2025-10-30",
+   "score": 9,
+   "is_op": false,
+   "body": "Is the elevated use year-round or only during A/C season?\n\nAre you sure your thermostat isn't malfunctioning (e.g., running both A/C *and* heat strips) ?\n\nAny chance you've had work done on your home that created a new path for ourdoor air to enter?\n\nHas anything (trees, curtains) changed that would affect how much sunshine lands on your home and/or enters your windows?\n\nHave you looked into installing an Emporia Vue (logs each circuit's kWh)?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm8uinq/"
+  },
+  {
+   "id": "nm90gxp",
+   "author": "FlippingGenious",
+   "date": "2025-10-30",
+   "score": 6,
+   "is_op": false,
+   "body": "Yes!  I even called them today because 3 of the last 4 months our usage is 25% higher than last year even though nothing in our home or life has changed. (And not talking about the bill amount but the actual kWh we\u2019re using). When I called they said it must be electronics/appliance related, so basically no help.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm90gxp/"
+  },
+  {
+   "id": "nm96mj0",
+   "author": "Koelsch",
+   "date": "2025-10-30",
+   "score": 5,
+   "is_op": false,
+   "body": "Others that I can think of ... \n\nAre you certain that its the exact same appliances and electronics? Absolutely nothing changed that could now be the cause of phantom loads (consuming energy while \"off\")?\n\nSpace heaters, aquariums, minifridges. If you have an electric dryer or water heater, those could be going on you. They're running longer and drawing more power.\n\nIf you live in a condo complex or multi-unit building, is there the potential that you have a shared circuit with a neighbor? Maybe the old energy conscious neighbor left and the new energy hog neighbor is wracking up your bills.\n\nAny potential cause for wiring issues, or ground faults? Corrosion, loose connections, moisture intr",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm96mj0/"
+  },
+  {
+   "id": "nmcjiqg",
+   "author": "VerneAsimov",
+   "date": "2025-10-31",
+   "score": 5,
+   "is_op": false,
+   "body": "If the government is giving free money to corporations it almost never is a net gain. Amazon warehouses/distribution centers, data centers for AI, TIFs, whatever you want to call it. They estimate about $80 trillion has been redistributed from people like me and you to corporations.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmcjiqg/"
+  },
+  {
+   "id": "nm9gu2k",
+   "author": "thloki",
+   "date": "2025-10-30",
+   "score": 5,
+   "is_op": false,
+   "body": "It won't help your overall costs, but sign up for Com Ed\"s budget billing, so that you get the same predictable bill every month with no spikes or surprises.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9gu2k/"
+  },
+  {
+   "id": "nmg0jkc",
+   "author": "chiwhitesox22",
+   "date": "2025-10-31",
+   "score": 4,
+   "is_op": false,
+   "body": "The cost of power has increased from $0.08 to $0.23 per kilowatt since 2019",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmg0jkc/"
+  },
+  {
+   "id": "nmb473j",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-10-31",
+   "score": 4,
+   "is_op": false,
+   "body": "Ya I mean the idea is more investment in the state raising more taxes, bringing more jobs (although you\u2019re right it\u2019s mostly temporary construction and then only a couple dozen permanent jobs at some of these spots), and infrastructure that both keeps these companies here long term *and* brings in more and more tech companies turning us into a big hub for that, etc. \n \nLegislators are trying to pass some laws regarding this crap but yea for now we\u2019re the ones paying for subsidizing these tax breaks, paying for upgrading energy infrastructure *and* delivery of energy and strains on the system, potential mass water usage, etc. \n\nWill it ever be a net gain? \ud83d\ude29 \ud83e\udd1e",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmb473j/"
+  },
+  {
+   "id": "nmg8g5t",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-10-31",
+   "score": 2,
+   "is_op": false,
+   "body": "In return for billions of dollars in long term investment in our state, yes.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmg8g5t/"
+  },
+  {
+   "id": "nmb83m8",
+   "author": "Putrid_Giggles",
+   "date": "2025-10-31",
+   "score": 2,
+   "is_op": false,
+   "body": "Good thing illinois banned new construction of nuclear power plants, eh?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmb83m8/"
+  },
+  {
+   "id": "nma6kv4",
+   "author": "LeadPaintChipsnDip",
+   "date": "2025-10-30",
+   "score": 2,
+   "is_op": false,
+   "body": "What amount of KWh are we talking about and how big is your house?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nma6kv4/"
+  },
+  {
+   "id": "nmajj6r",
+   "author": "FlippingGenious",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": ">Any potential cause for wiring issues, or ground faults? Corrosion, loose connections, moisture intrusion, pests, etc. How old is your house? Electric metering can be faulty at times.\n\nHow would we figure this out?  We have an old house so it could be something like this. Would ComEd check the meter?  This was what I was trying to ask ComEd on the phone but got a blank stare.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmajj6r/"
+  },
+  {
+   "id": "nmhczh6",
+   "author": "yomdiddy",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "Unfortunately PJM covers a large service area, most of which is outside Illinois. And most of Illinois is served by MISO and not PJM, so while it\u2019s a fair idea, it probably won\u2019t solve the problem. Also we are part of the problem when our online activities are requiring data centers. PJM has been notoriously terrible and bringing online new projects in their interconnection queue. \n\nMy bill for the last month is up to $101 from $44. ComEd is estimating $9.78 is due to weather, $1.54 because the bill period is one day more, and $45.25 (!) for \u201cother\u201d",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmhczh6/"
+  },
+  {
+   "id": "nmjpp44",
+   "author": "chiwhitesox22",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "Making people pay 3x their energy bill so that our corrupt government can misspend money is retarded",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmjpp44/"
+  },
+  {
+   "id": "nmjt6ly",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "I questioned if we\u2019ll see a net gain in my previous comment. Hopefully getting several billion investments in this sector leads to more tech investments to piggyback onto that with an eventual net gain in tax revenue.\n\nTime will tell and I hope our legislators can do something in the meantime regarding energy usage. Call your reps.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmjt6ly/"
+  },
+  {
+   "id": "nmgknqx",
+   "author": "tran5mogrifier",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "What do you think about their program where you switch to the usage rate? They keep mailing me things saying I\u2019d save a lot, but I don\u2019t trust them.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmgknqx/"
+  },
+  {
+   "id": "nm935ue",
+   "author": "Boring-Scar1580",
+   "date": "2025-10-30",
+   "score": 1,
+   "is_op": false,
+   "body": "Have state and federal and local utility taxes gone up?",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm935ue/"
+  },
+  {
+   "id": "nm96scj",
+   "author": "I_Eat_Turtle_",
+   "date": "2025-10-30",
+   "score": 1,
+   "is_op": false,
+   "body": "I was mad and looked at my bill, switched energy suppliers and should save about 30% on electric cost.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm96scj/"
+  },
+  {
+   "id": "nm9qtvz",
+   "author": "Drunken_Economist",
+   "date": "2025-10-30",
+   "score": 1,
+   "is_op": false,
+   "body": "That's not really anything to do with ComEd, unless it's inaccurate metering.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9qtvz/"
+  },
+  {
+   "id": "nmag37j",
+   "author": "Low_Employ8454",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "My bill is literally 2x as much as previous years, consistently every month all year this year. I\u2019ve been in this unit for 10+ years. My last bill was $390. I live in a small 2 bed apartment. It was already bad at the worst time of year for the electric bill at about $200 in years past. This year has been insane. I honestly don\u2019t know how I\u2019m going to keep the power on, it is unsustainable.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmag37j/"
+  },
+  {
+   "id": "nmaq43c",
+   "author": "IMIndyJones",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "My ComEd bill has been consistently higher than my neighbors for years and years. I've never been able to figure out why. It followed me from my old place to the one I'm in now. I live in a 2 bedroom condo, middle floor, center of the building, and heat is included in my rent. My bill is consistently over $100 a month. Lowest was $68 some years ago. This month it was $210. No one has been able to answer why. I've had my meter checked, etc.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmaq43c/"
+  },
+  {
+   "id": "nmavwa3",
+   "author": "Ill-Bandicoot-1333",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "It\u2019s absolutely fucking crazy. ComEd and People\u2019s Gas have skyrocketed.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmavwa3/"
+  },
+  {
+   "id": "nmeq5xt",
+   "author": "JQuilty",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "> But other culprits can be Rokus, incredibly power intensive and they don\u2019t ever go off\n\nThis is making mountains out of molehills. Set top boxes do use power...but nowhere near enough to account for a $20/mo increase. This entire month, idle and active usage, my Nvidia Shield has consumed....1.48 kWH. That's just slightly more than using an electric heater at full power for an hour. We consider them vampire loads, but they just don't consume enough power to make the differences people are seeing, and aren't worth fretting over. Even if you had a few of them plus some smart speakers...we're talking $2-3 worth of electricity a month. You're chasing savings that just won't materialize. \n\nOP a",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmeq5xt/"
+  },
+  {
+   "id": "nmit70a",
+   "author": "adschicago2",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "My eBill this month read $120. I went online and the bill said $41.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmit70a/"
+  },
+  {
+   "id": "nmg0nti",
+   "author": "chiwhitesox22",
+   "date": "2025-10-31",
+   "score": 0,
+   "is_op": false,
+   "body": "TLDR Pritzker increased our energy bills",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmg0nti/"
+  },
+  {
+   "id": "nma6m3d",
+   "author": "haikusbot",
+   "date": "2025-10-30",
+   "score": 0,
+   "is_op": false,
+   "body": "*What amount of KWh*\n\n*Are we talking about and*\n\n*How big is your house?*\n\n\\- LeadPaintChipsnDip\n\n---\n\n^(I detect haikus. And sometimes, successfully.) ^[Learn&#32;more&#32;about&#32;me.](https://www.reddit.com/r/haikusbot/)\n\n^(Opt out of replies: \"haikusbot opt out\" | Delete my comment: \"haikusbot delete\")",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nma6m3d/"
+  },
+  {
+   "id": "pd2s7c1",
+   "author": "Intelligent-Desk8773",
+   "date": "2026-09-30",
+   "score": 0,
+   "is_op": false,
+   "body": "Your ComEd account has your usage hour by hour. Look at 2 to 5am on a normal night. That's your always-on load, and it should be low. If it's high or has crept up over the years, something is running constantly: a dehumidifier, a sump pump, an old fridge in the garage, a water heater element, or a heat pump using its backup heat strips. Compare that overnight number year to year. It usually points to the culprit faster than an energy audit.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/pd2s7c1/"
+  },
+  {
+   "id": "nm9kt3b",
+   "author": "Thaeross",
+   "date": "2025-10-30",
+   "score": 14,
+   "is_op": false,
+   "body": "Call me paranoid but I\u2019m convinced that there is a datacenter in the Chicago area thats being kept under wraps",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9kt3b/"
+  },
+  {
+   "id": "nm9pf65",
+   "author": "Textiles_on_Main_St",
+   "date": "2025-10-30",
+   "score": 12,
+   "is_op": false,
+   "body": "Me, too! Same deal. Mostly just a fridge. lol",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9pf65/"
+  },
+  {
+   "id": "nm97ky5",
+   "author": "No-Solid-4255",
+   "date": "2025-10-30",
+   "score": 12,
+   "is_op": false,
+   "body": "Someone else mentioned this and they went step by step through all their breakers and it ended up being their hot water heater",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm97ky5/"
+  },
+  {
+   "id": "nm9l02b",
+   "author": "AwGeezRick",
+   "date": "2025-10-30",
+   "score": 6,
+   "is_op": false,
+   "body": "Great explanation, thank you",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9l02b/"
+  },
+  {
+   "id": "nm9kbvv",
+   "author": "Anxious_Interaction4",
+   "date": "2025-10-30",
+   "score": 6,
+   "is_op": false,
+   "body": "This is a major factor.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9kbvv/"
+  },
+  {
+   "id": "nmaf5rh",
+   "author": "Dizzy_Custard1418",
+   "date": "2025-10-31",
+   "score": 4,
+   "is_op": false,
+   "body": "This! They sent this out via email to explain why cost is more now but still icky",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmaf5rh/"
+  },
+  {
+   "id": "nmb7tho",
+   "author": "Putrid_Giggles",
+   "date": "2025-10-31",
+   "score": 4,
+   "is_op": false,
+   "body": "Instead we're fucking subsidizing them, like dumbfucks.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmb7tho/"
+  },
+  {
+   "id": "nm910m7",
+   "author": "CuriousCat511",
+   "date": "2025-10-30",
+   "score": 4,
+   "is_op": false,
+   "body": "This could be due to weather differences.  It has been a warmer than usual summer/fall, which typically means people were using their AC more than previous years.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm910m7/"
+  },
+  {
+   "id": "nma7n6x",
+   "author": "LeadPaintChipsnDip",
+   "date": "2025-10-30",
+   "score": 4,
+   "is_op": false,
+   "body": "For a couple months, then it\u2019ll be more expensive",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nma7n6x/"
+  },
+  {
+   "id": "nm8vx3d",
+   "author": "snobawl",
+   "date": "2025-10-30",
+   "score": 3,
+   "is_op": false,
+   "body": "no",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm8vx3d/"
+  },
+  {
+   "id": "nm95ntk",
+   "author": "IrishSpectreN7",
+   "date": "2025-10-30",
+   "score": 3,
+   "is_op": false,
+   "body": "Yes.\n\n\nMy usage is only up 17% compared to the same period last year, but current charges are up 57%",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm95ntk/"
+  },
+  {
+   "id": "nmawctr",
+   "author": "IntoxicatedBurrito",
+   "date": "2025-10-31",
+   "score": 2,
+   "is_op": false,
+   "body": "A lot of things can be causing this, but this summer was an incredibly hot one and no doubt your AC worked harder this year than in past years. \n\nBut other culprits can be Rokus, incredibly power intensive and they don\u2019t ever go off. I recommend getting master-slave power strips for your TV and accessories. The TV turns on, so does everything else. Turn the TV off, everything else goes off as well. Only the TV is drawing vampire power. \n\nAlexa devices and smart switches and any smart device are also things that are always on. \n\nBut aging appliances are also an issue, especially when you have dirty filters (fridges and HVaC). \n\nAlso use the toaster instead of the oven when you can, much easie",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmawctr/"
+  },
+  {
+   "id": "nmdthvl",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "Call your reps! Pritzker sees it as a net gain for the state",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmdthvl/"
+  },
+  {
+   "id": "nmd4ucf",
+   "author": "NoExam2412",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "The taxes are intended to drive revenue to help offset our own taxes, which is not nothing.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmd4ucf/"
+  },
+  {
+   "id": "nmhksp8",
+   "author": "chiwhitesox22",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "So essentially the people are paying for it and the government will be collecting money long term. Sounds like another tax if you ask me.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmhksp8/"
+  },
+  {
+   "id": "nmhlid7",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "Yes the gov\u2019t collects taxes and uses it for the people. This is the role of taxes, so the gov\u2019t can provide goods and services to the people.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmhlid7/"
+  },
+  {
+   "id": "nmhfq5w",
+   "author": "Ok-Cryptographer7424",
+   "date": "2025-11-01",
+   "score": 1,
+   "is_op": false,
+   "body": "Idk enough about that stuff",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmhfq5w/"
+  },
+  {
+   "id": "nmahpn6",
+   "author": "FlippingGenious",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "That\u2019s what I thought at first too but this last month the average temp was 1 degree different than a year ago but energy use was still 25% higher so I don\u2019t think that\u2019s it.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmahpn6/"
+  },
+  {
+   "id": "nmbz9f2",
+   "author": "I_Eat_Turtle_",
+   "date": "2025-10-31",
+   "score": 1,
+   "is_op": false,
+   "body": "Maybe,\u00a0 but then I can switch again.\u00a0 It's easy and free. Multiple options.\u00a0 All under the price I was paying.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmbz9f2/"
+  },
+  {
+   "id": "nma5tzd",
+   "author": "jmorrow88msncom",
+   "date": "2025-10-30",
+   "score": 1,
+   "is_op": false,
+   "body": "It is not inexplicable. The electric companies and utilities have a whole staff of lobbyists who constantly try to get govt push up the approved rates.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nma5tzd/"
+  },
+  {
+   "id": "nm9xh4k",
+   "author": "Financial_Pianist209",
+   "date": "2025-10-30",
+   "score": 0,
+   "is_op": false,
+   "body": "This is correct. I played golf with the CEO and he said exactly that.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nm9xh4k/"
+  },
+  {
+   "id": "nmc9zg5",
+   "author": "Maleficent_Can4976",
+   "date": "2025-10-31",
+   "score": 0,
+   "is_op": false,
+   "body": "Good bot.",
+   "link": "https://www.reddit.com/r/AskChicago/comments/1ok8l1v/does_anyone_elses_comed_bill_usage_continue_to/nmc9zg5/"
+  }
+ ]
+}
