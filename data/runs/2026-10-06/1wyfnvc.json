@@ -1,0 +1,47 @@
+{
+ "thread": {
+  "id": "1wyfnvc",
+  "title": "Got tired of guessing what ComEd's hourly price would actually be, so I built a forecaster",
+  "subreddit": "ChicagoSuburbs",
+  "author": "pablitorun",
+  "date": "2026-10-05",
+  "age_days": 1.0,
+  "score": 1,
+  "num_comments": 0,
+  "closed": false,
+  "flair": "",
+  "selftext": "\\------------------------------\n\nThere's no monetization here and zero plans for any. It runs on free data sources that explicitly don't allow commercial use. I just thought it was pretty cool, and it could be useful for anyone trying to keep their electric bill down.\n\n\\------------------------------\n\nI'm on ComEd's hourly pricing (RRTP). Two things kept bugging me:\n\n\n\n1. The day-ahead prices ComEd publishes are often pretty far off from what you actually get billed.\n\n2. There's no good way to see what the current hour is likely to end up at. You only see the 5-minute prices as they come in, and the hourly average is what you pay.\n\n\n\nSo with a lot of help from Claude (Anthropic's AI), I built a small site that forecasts it:\n\n\n\n[http://comed-forecast-759353037725.s3-website-us-east-1.amazonaws.com/](http://comed-forecast-759353037725.s3-website-us-east-1.amazonaws.com/)\n\n\n\nWhat it shows:\n\n\n\n\\- This hour's likely final price. It combines the 5-minute prices already in with a forecast for the rest of the hour, so it gets sharper as the hour goes on.\n\n\\- The next 24 hours, hour by hour, next to ComEd's day-ahead price, with a shaded \"likely range\" for each hour.\n\n\\- Spike odds: the chance each hour averages over 10\u00a2.\n\n\\- Cheapest and priciest hours ahead, for timing laundry, dishwasher, EV charging, etc.\n\n\n\nIt reruns every 5 minutes. It's a set of neural networks trained on ComEd's price history since 2018, plus weather across northern Illinois, PJM's load forecasts and grid conditions (outages, wind and solar output, hot- and cold-weather alerts), and natural gas prices.\n\n\n\nIt can also send email alerts: an hourly summary, a heads-up when the current hour is running well above or below the day's average, and a warning when a price spike looks likely in the next few hours. I just haven't wired up a way to sign up for those on the web page yet.\n\n\n\nHow it's done, tested on the past year, which the model never saw during training:\n\n\n\n\\- Next 24 hours: off by about 1.8\u00a2/kWh per hour on average, vs about 2.1\u00a2 for ComEd's day-ahead price. To be fair, a big chunk of that gap is the late-January cold snap, when the day-ahead was way too high. The rest of the year they're closer.\n\n\\- The hour you're in: about 1.3\u00a2 off at the start of the hour, vs about 1.9\u00a2 if you assume prices stay where they are.\n\n\\- Spike odds: when it says 50% or better odds of going over 10\u00a2, the hour did about two-thirds of the time. It still misses some spikes.\n\n\n\nNot affiliated with ComEd in any way, not advice, just a hobby project. Happy to hear feedback or answer questions about how it works.",
+  "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/"
+ },
+ "new_thread": false,
+ "new_comment_count": 3,
+ "comments": [
+  {
+   "id": "pe40vuj",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "I am not sure what you mean. The only way creating this project could impact the environment is through energy use.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe40vuj/"
+  },
+  {
+   "id": "pe3znoe",
+   "author": "pablitorun",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": true,
+   "body": "That\u2019s really funny considering the really poor writing and incomplete sentence fragment of your previous post",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe3znoe/"
+  },
+  {
+   "id": "pe3zurc",
+   "author": "music3k",
+   "date": "2026-10-05",
+   "score": 1,
+   "is_op": false,
+   "body": "You forgot punctuation.\nDid you not ask chatgpt for a good reply?",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1wyfnvc/got_tired_of_guessing_what_comeds_hourly_price/pe3zurc/"
+  }
+ ]
+}

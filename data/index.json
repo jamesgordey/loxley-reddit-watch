@@ -377,6 +377,33 @@
    "new_thread": true,
    "comments": 25,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-06/1wwpmky.json",
+   "run": "2026-10-06",
+   "thread_id": "1wwpmky",
+   "title": "Who are you using to rewire a condo and possibly upgrade box?",
+   "new_thread": true,
+   "comments": 11,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-06/1wxx3v8.json",
+   "run": "2026-10-06",
+   "thread_id": "1wxx3v8",
+   "title": "The Illinois\u2019 2021 Climate and Equitable Jobs Act saved three nuclear plants from closing and has since returned more than $2.7 billion to ComEd customers.",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-06/1wyfnvc.json",
+   "run": "2026-10-06",
+   "thread_id": "1wyfnvc",
+   "title": "Got tired of guessing what ComEd's hourly price would actually be, so I built a forecaster",
+   "new_thread": false,
+   "comments": 3,
+   "fresh": true
   }
  ],
  "runs": [
@@ -385,6 +412,18 @@
    "threads_checked": 42,
    "files": 42,
    "errors": []
+  },
+  {
+   "run": "2026-10-06",
+   "threads_checked": 10,
+   "files": 3,
+   "errors": [
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim",
+    "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err",
+    "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout",
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
+   ]
   }
  ]
 }
