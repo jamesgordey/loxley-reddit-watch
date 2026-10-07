@@ -404,6 +404,15 @@
    "new_thread": false,
    "comments": 3,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-07/1wwpmky.json",
+   "run": "2026-10-07",
+   "thread_id": "1wwpmky",
+   "title": "Who are you using to rewire a condo and possibly upgrade box?",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
   }
  ],
  "runs": [
@@ -423,6 +432,17 @@
     "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err",
     "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout",
     "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-09-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
+   ]
+  },
+  {
+   "run": "2026-10-07",
+   "threads_checked": 10,
+   "files": 1,
+   "errors": [
+    "search r/ChicagoSuburbs 'comed': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'comed', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeou",
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
    ]
   }
  ]
