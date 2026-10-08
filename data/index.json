@@ -413,6 +413,15 @@
    "new_thread": false,
    "comments": 1,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-08/1wzvzkb.json",
+   "run": "2026-10-08",
+   "thread_id": "1wzvzkb",
+   "title": "Looking for female roommate in Ukrainian village",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -443,6 +452,15 @@
     "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
     "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
     "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-09-30', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
+   ]
+  },
+  {
+   "run": "2026-10-08",
+   "threads_checked": 11,
+   "files": 1,
+   "errors": [
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-10-01', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt",
+    "fetch 1wieal0: /posts/ids {'ids': '1wieal0'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe slow down a bit\"}"
    ]
   }
  ]
