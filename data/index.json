@@ -498,6 +498,28 @@
     "fetch 1wyfnvc: /posts/ids {'ids': '1wyfnvc'}: 522 <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html ",
     "fetch 1wzvzkb: /posts/ids {'ids': '1wzvzkb'}: 522 <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html "
    ]
+  },
+  {
+   "run": "2026-10-10",
+   "threads_checked": 11,
+   "files": 0,
+   "errors": [
+    "search r/ChicagoSuburbs 'comed': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt I",
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--",
+    "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt IE 7]",
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if ",
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt IE 7]> <",
+    "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt ",
+    "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if l",
+    "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<",
+    "search r/evanston 'comed': /posts/search {'subreddit': 'evanston', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 522 <!DOCTYPE html>\n<!--[if lt IE 7]> ",
+    "search r/evanston 'electric bill': /posts/search {'subreddit': 'evanston', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if lt",
+    "search r/oakpark 'comed': /posts/search {'subreddit': 'oakpark', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if lt IE 7]> <",
+    "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if lt ",
+    "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if lt IE 7]",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if ",
+    "fetch 1wxx3v8: /posts/ids {'ids': '1wxx3v8'}: 525 <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html "
+   ]
   }
  ]
 }
