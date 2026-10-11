@@ -520,6 +520,15 @@
     "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-03', 'limit': 100, 'sort': 'desc'}: 521 <!DOCTYPE html>\n<!--[if ",
     "fetch 1wxx3v8: /posts/ids {'ids': '1wxx3v8'}: 525 <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html "
    ]
+  },
+  {
+   "run": "2026-10-11",
+   "threads_checked": 12,
+   "files": 0,
+   "errors": [
+    "fetch 1wxx3v8: /posts/ids {'ids': '1wxx3v8'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1x24ieu: /posts/ids {'ids': '1x24ieu'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
   }
  ]
 }
