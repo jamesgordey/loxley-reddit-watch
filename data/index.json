@@ -422,6 +422,24 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-12/1wtuqfp.json",
+   "run": "2026-10-12",
+   "thread_id": "1wtuqfp",
+   "title": "Luxury River North sublet/lease takeover available!",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": false
+  },
+  {
+   "file": "data/runs/2026-10-12/1x24ieu.json",
+   "run": "2026-10-12",
+   "thread_id": "1x24ieu",
+   "title": "Has Anyone Lived at 550 W Arlington Pl in Chicago? Looking for ComEd Electric Bill Estimates",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -528,6 +546,14 @@
    "errors": [
     "fetch 1wxx3v8: /posts/ids {'ids': '1wxx3v8'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1x24ieu: /posts/ids {'ids': '1x24ieu'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
+  },
+  {
+   "run": "2026-10-12",
+   "threads_checked": 12,
+   "files": 2,
+   "errors": [
+    "search r/oakpark 'comed': /posts/search {'subreddit': 'oakpark', 'title': 'comed', 'after': '2026-10-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb"
    ]
   }
  ]
