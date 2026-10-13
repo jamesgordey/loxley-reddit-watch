@@ -440,6 +440,15 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-13/1wssf9z.json",
+   "run": "2026-10-13",
+   "thread_id": "1wssf9z",
+   "title": "Urgently looking for two roommates!!",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": false
   }
  ],
  "runs": [
@@ -554,6 +563,15 @@
    "files": 2,
    "errors": [
     "search r/oakpark 'comed': /posts/search {'subreddit': 'oakpark', 'title': 'comed', 'after': '2026-10-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb"
+   ]
+  },
+  {
+   "run": "2026-10-13",
+   "threads_checked": 12,
+   "files": 1,
+   "errors": [
+    "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-10-06', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-06', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
    ]
   }
  ]
