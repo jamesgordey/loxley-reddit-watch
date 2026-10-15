@@ -467,6 +467,33 @@
    "new_thread": true,
    "comments": 33,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-15/1x57svv.json",
+   "run": "2026-10-15",
+   "thread_id": "1x57svv",
+   "title": "Beware Green Light Energy",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-15/1x58ojh.json",
+   "run": "2026-10-15",
+   "thread_id": "1x58ojh",
+   "title": "Are Data centers participating too?",
+   "new_thread": true,
+   "comments": 23,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-15/1x5cnf4.json",
+   "run": "2026-10-15",
+   "thread_id": "1x5cnf4",
+   "title": "Comed Real Time Pricing is Skyrocketing",
+   "new_thread": false,
+   "comments": 16,
+   "fresh": true
   }
  ],
  "runs": [
@@ -600,6 +627,16 @@
     "search r/evanston 'comed': /posts/search {'subreddit': 'evanston', 'title': 'comed', 'after': '2026-10-07', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May",
     "search r/evanston 'electric bill': /posts/search {'subreddit': 'evanston', 'title': 'electric bill', 'after': '2026-10-07', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time",
     "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-10-07', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
+   ]
+  },
+  {
+   "run": "2026-10-15",
+   "threads_checked": 15,
+   "files": 3,
+   "errors": [
+    "fetch 1wssf9z: /posts/ids {'ids': '1wssf9z'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1wtnu7i: /posts/ids {'ids': '1wtnu7i'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1wtuqfp: /posts/ids {'ids': '1wtuqfp'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
   }
  ]
