@@ -503,6 +503,15 @@
    "new_thread": false,
    "comments": 1,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-17/1x57svv.json",
+   "run": "2026-10-17",
+   "thread_id": "1x57svv",
+   "title": "Beware Green Light Energy",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
   }
  ],
  "runs": [
@@ -659,6 +668,17 @@
     "fetch 1wieal0: /posts/ids {'ids': '1wieal0'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1wssf9z: /posts/ids {'ids': '1wssf9z'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1wwslrz: /posts/ids {'ids': '1wwslrz'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
+  },
+  {
+   "run": "2026-10-17",
+   "threads_checked": 15,
+   "files": 1,
+   "errors": [
+    "search r/ChicagoSuburbs 'comed': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'comed', 'after': '2026-10-10', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeou",
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-10-10', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-10', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-10-10', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim"
    ]
   }
  ]
