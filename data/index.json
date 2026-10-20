@@ -512,6 +512,24 @@
    "new_thread": false,
    "comments": 1,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-20/1x8c7ku.json",
+   "run": "2026-10-20",
+   "thread_id": "1x8c7ku",
+   "title": "[West Loop/Fulton Market] 1BR Lease Takeover \u2013 $2,984/mo + $1,500 Move-In Incentive | Nov Move-In",
+   "new_thread": true,
+   "comments": 27,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-20/1xashtq.json",
+   "run": "2026-10-20",
+   "thread_id": "1xashtq",
+   "title": "[Lease takeover] Spacious 1BD (792 sq ft) in downtown high-rise | $2,235/mo | Nov. 3 to June 27, 2027",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -697,6 +715,15 @@
     "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-10-12', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-12', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-10-12', 'limit': 100, 'sort': 'desc'}: ('Connection aborted.', RemoteDis"
+   ]
+  },
+  {
+   "run": "2026-10-20",
+   "threads_checked": 16,
+   "files": 2,
+   "errors": [
+    "search r/oakpark 'comed': /posts/search {'subreddit': 'oakpark', 'title': 'comed', 'after': '2026-10-13', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-13', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
    ]
   }
  ]
