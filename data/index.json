@@ -725,6 +725,16 @@
     "search r/oakpark 'comed': /posts/search {'subreddit': 'oakpark', 'title': 'comed', 'after': '2026-10-13', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-13', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
    ]
+  },
+  {
+   "run": "2026-10-21",
+   "threads_checked": 16,
+   "files": 0,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
+   ]
   }
  ]
 }
