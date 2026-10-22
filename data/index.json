@@ -530,6 +530,24 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-22/1xashtq.json",
+   "run": "2026-10-22",
+   "thread_id": "1xashtq",
+   "title": "[Lease takeover] Spacious 1BD (792 sq ft) in downtown high-rise | $2,235/mo | Nov. 3 to June 27, 2027",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-22/1xc23z5.json",
+   "run": "2026-10-22",
+   "thread_id": "1xc23z5",
+   "title": "ComEd emails: This is all made up bullish*t, right?",
+   "new_thread": true,
+   "comments": 76,
+   "fresh": true
   }
  ],
  "runs": [
@@ -734,6 +752,18 @@
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err",
     "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-14', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
+   ]
+  },
+  {
+   "run": "2026-10-22",
+   "threads_checked": 17,
+   "files": 2,
+   "errors": [
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-10-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-10-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-10-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
+    "search r/illinois 'comed': /posts/search {'subreddit': 'illinois', 'title': 'comed', 'after': '2026-10-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May",
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-10-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
    ]
   }
  ]
