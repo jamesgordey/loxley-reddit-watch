@@ -780,6 +780,15 @@
    "threads_checked": 17,
    "files": 1,
    "errors": []
+  },
+  {
+   "run": "2026-10-24",
+   "threads_checked": 17,
+   "files": 0,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-17', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-10-17', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M"
+   ]
   }
  ]
 }
