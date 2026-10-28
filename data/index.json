@@ -825,6 +825,14 @@
    "threads_checked": 17,
    "files": 0,
    "errors": []
+  },
+  {
+   "run": "2026-10-28",
+   "threads_checked": 17,
+   "files": 0,
+   "errors": [
+    "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-10-21', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M"
+   ]
   }
  ]
 }
