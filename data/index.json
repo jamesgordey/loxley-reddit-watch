@@ -566,6 +566,15 @@
    "new_thread": false,
    "comments": 7,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-29/1xc23z5.json",
+   "run": "2026-10-29",
+   "thread_id": "1xc23z5",
+   "title": "ComEd emails: This is all made up bullish*t, right?",
+   "new_thread": false,
+   "comments": 4,
+   "fresh": false
   }
  ],
  "runs": [
@@ -832,6 +841,14 @@
    "files": 0,
    "errors": [
     "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-10-21', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M"
+   ]
+  },
+  {
+   "run": "2026-10-29",
+   "threads_checked": 15,
+   "files": 1,
+   "errors": [
+    "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-10-22', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err"
    ]
   }
  ]
