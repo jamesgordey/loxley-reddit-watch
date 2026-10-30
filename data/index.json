@@ -575,6 +575,15 @@
    "new_thread": false,
    "comments": 4,
    "fresh": false
+  },
+  {
+   "file": "data/runs/2026-10-30/1xgzgag.json",
+   "run": "2026-10-30",
+   "thread_id": "1xgzgag",
+   "title": "1BD (792 sq ft) in downtown high-rise | $2,235/mo | $1,300 rent concession!!",
+   "new_thread": true,
+   "comments": 3,
+   "fresh": true
   }
  ],
  "runs": [
@@ -850,6 +859,12 @@
    "errors": [
     "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-10-22', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err"
    ]
+  },
+  {
+   "run": "2026-10-30",
+   "threads_checked": 14,
+   "files": 1,
+   "errors": []
   }
  ]
 }
