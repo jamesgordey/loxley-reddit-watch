@@ -584,6 +584,15 @@
    "new_thread": true,
    "comments": 3,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-10-31/1xjs6f5.json",
+   "run": "2026-10-31",
+   "thread_id": "1xjs6f5",
+   "title": "STILL NEED THESE ROONS FILLED ASAP!",
+   "new_thread": true,
+   "comments": 3,
+   "fresh": true
   }
  ],
  "runs": [
@@ -865,6 +874,16 @@
    "threads_checked": 14,
    "files": 1,
    "errors": []
+  },
+  {
+   "run": "2026-10-31",
+   "threads_checked": 14,
+   "files": 1,
+   "errors": [
+    "search r/ComEd 'comed': /posts/search {'subreddit': 'ComEd', 'title': 'comed', 'after': '2026-10-24', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe ",
+    "fetch 1wwpmky: /posts/ids {'ids': '1wwpmky'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1wzvzkb: /posts/ids {'ids': '1wzvzkb'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
   }
  ]
 }
