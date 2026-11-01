@@ -593,6 +593,15 @@
    "new_thread": true,
    "comments": 3,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-01/1xl7i4i.json",
+   "run": "2026-11-01",
+   "thread_id": "1xl7i4i",
+   "title": "Common Sense Finding by ICC judges",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -883,6 +892,15 @@
     "search r/ComEd 'comed': /posts/search {'subreddit': 'ComEd', 'title': 'comed', 'after': '2026-10-24', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe ",
     "fetch 1wwpmky: /posts/ids {'ids': '1wwpmky'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1wzvzkb: /posts/ids {'ids': '1wzvzkb'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
+  },
+  {
+   "run": "2026-11-01",
+   "threads_checked": 15,
+   "files": 1,
+   "errors": [
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-10-25', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-10-25', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti"
    ]
   }
  ]
