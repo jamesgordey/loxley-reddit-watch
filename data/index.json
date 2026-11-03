@@ -620,6 +620,15 @@
    "new_thread": false,
    "comments": 19,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-03/1xl7i4i.json",
+   "run": "2026-11-03",
+   "thread_id": "1xl7i4i",
+   "title": "Common Sense Finding by ICC judges",
+   "new_thread": false,
+   "comments": 4,
+   "fresh": true
   }
  ],
  "runs": [
@@ -931,6 +940,15 @@
     "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-10-26', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
     "search r/ComEd 'comed': /posts/search {'subreddit': 'ComEd', 'title': 'comed', 'after': '2026-10-26', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe ",
     "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-10-26', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout"
+   ]
+  },
+  {
+   "run": "2026-11-03",
+   "threads_checked": 13,
+   "files": 1,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-27', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-10-27', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim"
    ]
   }
  ]
