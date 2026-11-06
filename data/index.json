@@ -629,6 +629,24 @@
    "new_thread": false,
    "comments": 4,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-06/1xo5al8.json",
+   "run": "2026-11-06",
+   "thread_id": "1xo5al8",
+   "title": "[Lease takeover] Spacious 1BD (792 sq ft) Lakeshore East | $2,235/mo | November rent free!",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-06/1xou1d8.json",
+   "run": "2026-11-06",
+   "thread_id": "1xou1d8",
+   "title": "River West 1BD/1BA Convertible (~687 sq ft) - $2,380 All-In",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -972,6 +990,12 @@
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-10-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/evanston 'electric bill': /posts/search {'subreddit': 'evanston', 'title': 'electric bill', 'after': '2026-10-29', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
    ]
+  },
+  {
+   "run": "2026-11-06",
+   "threads_checked": 13,
+   "files": 2,
+   "errors": []
   }
  ]
 }
