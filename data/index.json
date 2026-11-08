@@ -1015,6 +1015,15 @@
     "search r/evanston 'comed': /posts/search {'subreddit': 'evanston', 'title': 'comed', 'after': '2026-10-31', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May",
     "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-10-31', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo"
    ]
+  },
+  {
+   "run": "2026-11-08",
+   "threads_checked": 12,
+   "files": 0,
+   "errors": [
+    "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-11-01', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err",
+    "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-11-01', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout"
+   ]
   }
  ]
 }
