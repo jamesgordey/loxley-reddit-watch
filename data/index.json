@@ -656,6 +656,15 @@
    "new_thread": false,
    "comments": 1,
    "fresh": false
+  },
+  {
+   "file": "data/runs/2026-11-10/1xrhawv.json",
+   "run": "2026-11-10",
+   "thread_id": "1xrhawv",
+   "title": "Private Bedroom & Bathroom Available in 3-Bedroom Apartment | Rogers Park, Chicago",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1032,6 +1041,16 @@
    "errors": [
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-02', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-02', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
+   ]
+  },
+  {
+   "run": "2026-11-10",
+   "threads_checked": 12,
+   "files": 1,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/illinois 'comed': /posts/search {'subreddit': 'illinois', 'title': 'comed', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May"
    ]
   }
  ]
