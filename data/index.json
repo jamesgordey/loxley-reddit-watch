@@ -665,6 +665,15 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-11/1xsy20h.json",
+   "run": "2026-11-11",
+   "thread_id": "1xsy20h",
+   "title": "ComEs Billing Dispute for wrong apartment - Has Anyone Ever Experienced this?",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1051,6 +1060,19 @@
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
     "search r/illinois 'comed': /posts/search {'subreddit': 'illinois', 'title': 'comed', 'after': '2026-11-03', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May"
+   ]
+  },
+  {
+   "run": "2026-11-11",
+   "threads_checked": 13,
+   "files": 1,
+   "errors": [
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/ComEd 'comed': /posts/search {'subreddit': 'ComEd', 'title': 'comed', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe ",
+    "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout",
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
    ]
   }
  ]
