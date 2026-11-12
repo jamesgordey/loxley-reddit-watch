@@ -674,6 +674,24 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-12/1xttpsv.json",
+   "run": "2026-11-12",
+   "thread_id": "1xttpsv",
+   "title": "SUBLEASE: 2 Bed / 2 Bath at Hubbard221, River North (March 1 \u2013 Sep 1, 2027)",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-12/1xulk88.json",
+   "run": "2026-11-12",
+   "thread_id": "1xulk88",
+   "title": "Prime Location! Lakeview Studio Apartment Available 12/1. Short walk to Belmont CTA, Wrigleyville, Boystown nightlife, + lakefront",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1073,6 +1091,23 @@
     "search r/ComEd 'comed': /posts/search {'subreddit': 'ComEd', 'title': 'comed', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Maybe ",
     "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout",
     "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-04', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
+   ]
+  },
+  {
+   "run": "2026-11-12",
+   "threads_checked": 15,
+   "files": 2,
+   "errors": [
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-11-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-11-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
+    "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-11-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-05', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time",
+    "fetch 1x57svv: /posts/ids {'ids': '1x57svv'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1x58ojh: /posts/ids {'ids': '1x58ojh'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1x5cnf4: /posts/ids {'ids': '1x5cnf4'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xgzgag: /posts/ids {'ids': '1xgzgag'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xl7i4i: /posts/ids {'ids': '1xl7i4i'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
   }
  ]
