@@ -1109,6 +1109,16 @@
     "fetch 1xgzgag: /posts/ids {'ids': '1xgzgag'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1xl7i4i: /posts/ids {'ids': '1xl7i4i'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
+  },
+  {
+   "run": "2026-11-13",
+   "threads_checked": 12,
+   "files": 0,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-06', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/evanston 'electric bill': /posts/search {'subreddit': 'evanston', 'title': 'electric bill', 'after': '2026-11-06', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time",
+    "fetch 1xc23z5: /posts/ids {'ids': '1xc23z5'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
   }
  ]
 }
