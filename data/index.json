@@ -1119,6 +1119,18 @@
     "search r/evanston 'electric bill': /posts/search {'subreddit': 'evanston', 'title': 'electric bill', 'after': '2026-11-06', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time",
     "fetch 1xc23z5: /posts/ids {'ids': '1xc23z5'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
+  },
+  {
+   "run": "2026-11-14",
+   "threads_checked": 12,
+   "files": 0,
+   "errors": [
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-11-07', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/Naperville 'electric bill': /posts/search {'subreddit': 'Naperville', 'title': 'electric bill', 'after': '2026-11-07', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "fetch 1xou1d8: /posts/ids {'ids': '1xou1d8'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xttpsv: /posts/ids {'ids': '1xttpsv'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xulk88: /posts/ids {'ids': '1xulk88'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
   }
  ]
 }
