@@ -692,6 +692,33 @@
    "new_thread": true,
    "comments": 0,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-15/1xulk88.json",
+   "run": "2026-11-15",
+   "thread_id": "1xulk88",
+   "title": "Prime Location! Lakeview Studio Apartment Available 12/1. Short walk to Belmont CTA, Wrigleyville, Boystown nightlife, + lakefront",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-15/1xun8ym.json",
+   "run": "2026-11-15",
+   "thread_id": "1xun8ym",
+   "title": "Sublet at River East Lofts overlooking Ogden Slip. Target, Cupitol, Carsons, and Roberts Pizza are all in the building. Whole Foods, Chase, Liquor Store, AMC Theaters, Paris Baguette, Solid Core, NW Hospital within a 2- 10-minute walk",
+   "new_thread": true,
+   "comments": 4,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-15/1xvgsq3.json",
+   "run": "2026-11-15",
+   "thread_id": "1xvgsq3",
+   "title": "Fully Furnished Studio in Hyde Park | $1,185/month + electricity | Available Feb 1, 2027!",
+   "new_thread": true,
+   "comments": 10,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1131,6 +1158,12 @@
     "fetch 1xttpsv: /posts/ids {'ids': '1xttpsv'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
     "fetch 1xulk88: /posts/ids {'ids': '1xulk88'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
+  },
+  {
+   "run": "2026-11-15",
+   "threads_checked": 14,
+   "files": 3,
+   "errors": []
   }
  ]
 }
