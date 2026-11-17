@@ -1181,6 +1181,12 @@
    "errors": [
     "search r/chicagoapartments 'electric bill': /posts/search {'subreddit': 'chicagoapartments', 'title': 'electric bill', 'after': '2026-11-09', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"err"
    ]
+  },
+  {
+   "run": "2026-11-17",
+   "threads_checked": 14,
+   "files": 0,
+   "errors": []
   }
  ]
 }
