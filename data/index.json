@@ -728,6 +728,15 @@
    "new_thread": true,
    "comments": 4,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-19/1xyy996.json",
+   "run": "2026-11-19",
+   "thread_id": "1xyy996",
+   "title": "Comed issues",
+   "new_thread": true,
+   "comments": 18,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1196,6 +1205,14 @@
     "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-11', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
     "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-11-11', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim",
     "search r/illinois 'comed': /posts/search {'subreddit': 'illinois', 'title': 'comed', 'after': '2026-11-11', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May"
+   ]
+  },
+  {
+   "run": "2026-11-19",
+   "threads_checked": 15,
+   "files": 1,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-12', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb"
    ]
   }
  ]
