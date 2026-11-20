@@ -737,6 +737,51 @@
    "new_thread": true,
    "comments": 18,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-20/1xyy996.json",
+   "run": "2026-11-20",
+   "thread_id": "1xyy996",
+   "title": "Comed issues",
+   "new_thread": false,
+   "comments": 3,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-20/1y0sxs2.json",
+   "run": "2026-11-20",
+   "thread_id": "1y0sxs2",
+   "title": "Comed disconnection",
+   "new_thread": true,
+   "comments": 0,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-20/1y0szpu.json",
+   "run": "2026-11-20",
+   "thread_id": "1y0szpu",
+   "title": "Trying to see my options with a Comed disconnection?",
+   "new_thread": true,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-20/1y117qf.json",
+   "run": "2026-11-20",
+   "thread_id": "1y117qf",
+   "title": "Trying to see my options with a Comed disconnection?",
+   "new_thread": true,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-20/1y14e1t.json",
+   "run": "2026-11-20",
+   "thread_id": "1y14e1t",
+   "title": "ComEd named most reliable utility!",
+   "new_thread": true,
+   "comments": 21,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1214,6 +1259,12 @@
    "errors": [
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-12', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb"
    ]
+  },
+  {
+   "run": "2026-11-20",
+   "threads_checked": 18,
+   "files": 5,
+   "errors": []
   }
  ]
 }
