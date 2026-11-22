@@ -791,6 +791,15 @@
    "new_thread": false,
    "comments": 22,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-22/1y2ab7m.json",
+   "run": "2026-11-22",
+   "thread_id": "1y2ab7m",
+   "title": "ComEd planned outage 11/23",
+   "new_thread": true,
+   "comments": 5,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1280,6 +1289,16 @@
    "threads_checked": 17,
    "files": 1,
    "errors": []
+  },
+  {
+   "run": "2026-11-22",
+   "threads_checked": 18,
+   "files": 1,
+   "errors": [
+    "search r/ChicagoSuburbs 'comed': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'comed', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeou",
+    "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
+    "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim"
+   ]
   }
  ]
 }
