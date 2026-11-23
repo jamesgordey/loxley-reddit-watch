@@ -800,6 +800,24 @@
    "new_thread": true,
    "comments": 5,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-23/1y3k1o3.json",
+   "run": "2026-11-23",
+   "thread_id": "1y3k1o3",
+   "title": "1 Bedroom Lakeview Sublet Available | Available 12/1 $1795",
+   "new_thread": true,
+   "comments": 3,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-23/1y3k9ii.json",
+   "run": "2026-11-23",
+   "thread_id": "1y3k9ii",
+   "title": "Clarification on ComEd hourly pricing",
+   "new_thread": true,
+   "comments": 13,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1298,6 +1316,15 @@
     "search r/ChicagoSuburbs 'comed': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'comed', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeou",
     "search r/ChicagoSuburbs 'electric bill': /posts/search {'subreddit': 'ChicagoSuburbs', 'title': 'electric bill', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\"",
     "search r/chicagoapartments 'comed': /posts/search {'subreddit': 'chicagoapartments', 'title': 'comed', 'after': '2026-11-15', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Tim"
+   ]
+  },
+  {
+   "run": "2026-11-23",
+   "threads_checked": 20,
+   "files": 2,
+   "errors": [
+    "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-11-16', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
+    "fetch 1xl7i4i: /posts/ids {'ids': '1xl7i4i'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
   }
  ]

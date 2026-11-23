@@ -1,0 +1,137 @@
+{
+ "thread": {
+  "id": "1y3k9ii",
+  "title": "Clarification on ComEd hourly pricing",
+  "subreddit": "ChicagoSuburbs",
+  "author": "asahi7777777",
+  "date": "2026-11-23",
+  "age_days": 0.4,
+  "score": 6,
+  "num_comments": 13,
+  "closed": false,
+  "flair": "North Suburbs",
+  "selftext": "I'm on fixed pricing, and considering a house battery for backup (Anker Solix w/ Smart Inlet Box), but also to take advantage of ComEd's hourly pricing. My average daily consumption is around 33 KWh, though it can spike to 45+ KWh on hot days. I'm paying about 8.4c / KWh for the \"Supply Charge\". \n\nMy questions:\n\n1.  What does \"Price for the Hour Ending\" mean? For the 0.5c at 12:00AM on 11/22, does this mean 0.5c from 11:01 PM - 12:00 AM?\n2. When pricing is negative, ComEd pays you to consume energy?\n3. Prices spiked to $2.38 / KWh on 9/16. I think that was when we had a huge outage for a few days (or weeks) for many of us. Is that the highest you've seen?\n4. Anyone using the Anker Solix w/ Smart Inlet Box? \n5. Is the best scheduling generally 11 PM - 5 AM?\n\nThanks everyone!\n\n\n\nhttps://i.redd.it/zi0e4jhwed3i1.png\n\n\n\nhttps://i.redd.it/8vf2oaszgd3i1.png\n\n",
+  "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/"
+ },
+ "new_thread": true,
+ "new_comment_count": 13,
+ "comments": [
+  {
+   "id": "19t2qyk4ejmma",
+   "author": "asahi7777777",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": true,
+   "body": "Thank you for this, I had no idea since this appears to be baked into my supply charge. The [example](https://hourlypricing.comed.com/capacity-charge-updates/) they have shows an additional $21 in capacity charges for just 2.51 KW. This isn't that high. \ud83d\ude35",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2qyk4ejmma/"
+  },
+  {
+   "id": "19t2r9oh6x9ac",
+   "author": "asahi7777777",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": true,
+   "body": "Thanks. There's a Rates Comparison page on ComEd...it says that my flat delivery will be lower by $15/year compared to Delivery TOD. Not sure why....weird.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2r9oh6x9ac/"
+  },
+  {
+   "id": "19t33mavzz8zm",
+   "author": "asahi7777777",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": true,
+   "body": "Did you use the Rates Comparison page or you calculated some other way? According to that page, it says I would have saved around $750/year if I had switched as-is. If that's true, then the break even is somewhere around 9 years. \n\nIt seems like the rates are predictable, like when it's most expensive vs cheapest. I just want to schedule the peak-shaving from battery and not have to manage it every day.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t33mavzz8zm/"
+  },
+  {
+   "id": "19t2swgt86amc",
+   "author": "asahi7777777",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": true,
+   "body": "I didn't think so, but maybe I am since I'm home all day. The peak hours are probably in-line with the hottest time of day, so my 2 AC condensers are running then. But I keep the thermostats at 76 / 77 during summer.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2swgt86amc/"
+  },
+  {
+   "id": "19t2pf5fxrmf9",
+   "author": "FloridaIsTooDamnHot",
+   "date": "2026-11-23",
+   "score": 6,
+   "is_op": false,
+   "body": "The delivery charge is going to be higher than the negative supply charge will be, generally. I use Home Assistant to track hourly pricing and told it what my delivery time of day charges and times are and it calculates the all in hourly charge. \n\nI have the delivery time of day as well as hourly supply. \n\nSee a pattern?\n\nhttps://i.redd.it/uc4mi8crnd3i1.jpeg",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2pf5fxrmf9/"
+  },
+  {
+   "id": "19t2ptqnh6q85",
+   "author": "jacerhea",
+   "date": "2026-11-23",
+   "score": 3,
+   "is_op": false,
+   "body": "1. Yes\n2. Yes, but you still have to pay for delivery.\n3. AI says that's the highest its been.  On my bill I typically see peak hours at 30 cents.\n4. No\n5. Generally, yes.  I schedule my car to charge at 1am everyday.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2ptqnh6q85/"
+  },
+  {
+   "id": "19t2pv12kr9z5",
+   "author": "pablitorun",
+   "date": "2026-11-23",
+   "score": 2,
+   "is_op": false,
+   "body": "I have vibe coded a tool I use to estimate prices. It\u2019s better than comeds day ahead estimate.\n\nhttp://comed-forecast-759353037725.s3-website-us-east-1.amazonaws.com/\n\nIt\u2019s pretty dense because I created it just for myself and I am on variable delivery pricing too but you might find it useful.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2pv12kr9z5/"
+  },
+  {
+   "id": "19t2qbhcdaeyq",
+   "author": "Big_Benefit5659",
+   "date": "2026-11-23",
+   "score": 2,
+   "is_op": false,
+   "body": "You can sign up for delivery time of use charge as well. We\u2019ve saved a ton doing that (combined with solar-no batteries unfortunately).\u00a0\n\nThe spikes can be absolutely insane, but they just balance out literally every other time the rest of the year.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2qbhcdaeyq/"
+  },
+  {
+   "id": "19t2sghdk0668",
+   "author": "Big_Benefit5659",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": false,
+   "body": "Heavy user during the peak hours\u2026?",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2sghdk0668/"
+  },
+  {
+   "id": "19t32gex2gll0",
+   "author": "goodah_jobah",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": false,
+   "body": "I did this math last year and stayed on fixed. The supply side can go negative on a mild afternoon, but delivery and the capacity charge are still on the bill, so the savings only show up if you can move a big load out of the peak window. A battery changes that, but then you are buying a battery to chase a few cents.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t32gex2gll0/"
+  },
+  {
+   "id": "19t2qajpxhqv7",
+   "author": "zydeco100",
+   "date": "2026-11-23",
+   "score": 3,
+   "is_op": false,
+   "body": "Learn about the capacity charge variable as well. It can negate a lot of your savings if you're not careful.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2qajpxhqv7/"
+  },
+  {
+   "id": "19t2tx2kdaurk",
+   "author": "zydeco100",
+   "date": "2026-11-23",
+   "score": 3,
+   "is_op": false,
+   "body": "I'd ask some RRTP users here about their real experiences lately. The multiplier is based on your individual usage during the summer. I quit RRTP because this number got too far out of control and I couldn't let my house go up to 80F during heatwaves.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2tx2kdaurk/"
+  },
+  {
+   "id": "19t2q8h4iwif4",
+   "author": "pablitorun",
+   "date": "2026-11-23",
+   "score": 2,
+   "is_op": false,
+   "body": "Also to answer your questions\n\n1) you are correct  \n2) total price including delivery is almost never negative but total net does get down to around 2-3 cents sometimes.  \n3) yes that\u2019s highest I have ever seen. Ironically the biggest spikes come in winter and shoulder seasons. Winter because stuff breaks and shoulder seasons because they take stuff offline for maintenance   \n4) not me   \n5) yes absolutely. Especially if you have variable delivery too.  All I do to save about 10-20 percent is get the house nice and cold on summer nights and then fight the family with a stick to not turn the air on before 8 at night. (The house is still usually like 74 at that point)",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t2q8h4iwif4/"
+  }
+ ]
+}
