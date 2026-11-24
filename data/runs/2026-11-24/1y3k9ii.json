@@ -1,0 +1,74 @@
+{
+ "thread": {
+  "id": "1y3k9ii",
+  "title": "Clarification on ComEd hourly pricing",
+  "subreddit": "ChicagoSuburbs",
+  "author": "asahi7777777",
+  "date": "2026-11-23",
+  "age_days": 1.3,
+  "score": 8,
+  "num_comments": 20,
+  "closed": false,
+  "flair": "North Suburbs",
+  "selftext": "I'm on fixed pricing, and considering a house battery for backup (Anker Solix w/ Smart Inlet Box), but also to take advantage of ComEd's hourly pricing. My average daily consumption is around 33 KWh, though it can spike to 45+ KWh on hot days. I'm paying about 8.4c / KWh for the \"Supply Charge\". \n\nMy questions:\n\n1.  What does \"Price for the Hour Ending\" mean? For the 0.5c at 12:00AM on 11/22, does this mean 0.5c from 11:01 PM - 12:00 AM?\n2. When pricing is negative, ComEd pays you to consume energy?\n3. Prices spiked to $2.38 / KWh on 9/16. I think that was when we had a huge outage for a few days (or weeks) for many of us. Is that the highest you've seen?\n4. Anyone using the Anker Solix w/ Smart Inlet Box? \n5. Is the best scheduling generally 11 PM - 5 AM?\n\nThanks everyone!\n\n\n\nhttps://i.redd.it/zi0e4jhwed3i1.png\n\n\n\nhttps://i.redd.it/8vf2oaszgd3i1.png\n\n",
+  "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/"
+ },
+ "new_thread": false,
+ "new_comment_count": 6,
+ "comments": [
+  {
+   "id": "19t3ehcfx6n2c",
+   "author": "asahi7777777",
+   "date": "2026-11-24",
+   "score": 1,
+   "is_op": true,
+   "body": "I use about 32 KWhs/day on low months. Summer this year was 45-ish. Although, I have seen some days in prior years at 60+.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t3ehcfx6n2c/"
+  },
+  {
+   "id": "19t3ecres6s05",
+   "author": "asahi7777777",
+   "date": "2026-11-24",
+   "score": 1,
+   "is_op": true,
+   "body": "You just set a schedule for the battery to supply house energy and that\u2019s it. They can\u2019t take energy from the battery.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t3ecres6s05/"
+  },
+  {
+   "id": "19t3abgzij3nm",
+   "author": "goodah_jobah",
+   "date": "2026-11-23",
+   "score": 2,
+   "is_op": false,
+   "body": "I did it off my own usage instead of the page, since the comparison tool runs your last year of load against hourly rates and assumes nothing else changes. The gap between its number and mine was mostly the capacity charge, which is set by a few summer peaks and lands on the bill months later. For the battery, holding the house from late afternoon into the evening and recharging overnight is a schedule you set once, so daily management is not really the issue. Nine years of payback is honest though, so the backup is what you are buying and the savings are the bonus.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t3abgzij3nm/"
+  },
+  {
+   "id": "19t3d2x9wylvk",
+   "author": "Happy_Weed_Man",
+   "date": "2026-11-23",
+   "score": 2,
+   "is_op": false,
+   "body": "80 billing cycles, $1505 savings which averages 22.08% of our bills. Averaging 800 kw per month if that helps. We do not have any automation as we just try to watch what we use and when we use it. Hope that Helps!",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t3d2x9wylvk/"
+  },
+  {
+   "id": "19t38iqyd00g2",
+   "author": "elangomatt",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": false,
+   "body": "How much electricity do you use every year? I believe what you say about what the Rates Comparison page says but $750 savings a year sounds ambitious to me. \n\nI've been on hourly pricing for over 3 years now so I kindof have things dialed in. I only saved like $650 last year with my \\~15 megawatts of usage. My rates comparison page suggests I would save $455 by using hourly pricing and flat delivery instead of the flat supply/delivery. \n\nI was actually surprised to see that it thinks I might save $60 more if I did Delivery TOD. Last time I used this tool it suggested that I was better off with flat delivery.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t38iqyd00g2/"
+  },
+  {
+   "id": "19t3cxf3ppnb7",
+   "author": "No-Phrase-4692",
+   "date": "2026-11-23",
+   "score": 1,
+   "is_op": false,
+   "body": "So many caveats and hoops to jump through to save money. I\u2019d rather just have the regular pricing, and the idea that they can take your energy from your battery is ridiculous.",
+   "link": "https://www.reddit.com/r/ChicagoSuburbs/comments/1y3k9ii/clarification_on_comed_hourly_pricing/19t3cxf3ppnb7/"
+  }
+ ]
+}

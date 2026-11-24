@@ -818,6 +818,24 @@
    "new_thread": true,
    "comments": 13,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-24/1y3k1o3.json",
+   "run": "2026-11-24",
+   "thread_id": "1y3k1o3",
+   "title": "1 Bedroom Lakeview Sublet Available | Available 12/1 $1795",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-24/1y3k9ii.json",
+   "run": "2026-11-24",
+   "thread_id": "1y3k9ii",
+   "title": "Clarification on ComEd hourly pricing",
+   "new_thread": false,
+   "comments": 6,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1325,6 +1343,14 @@
    "errors": [
     "search r/Naperville 'comed': /posts/search {'subreddit': 'Naperville', 'title': 'comed', 'after': '2026-11-16', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
     "fetch 1xl7i4i: /posts/ids {'ids': '1xl7i4i'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
+  },
+  {
+   "run": "2026-11-24",
+   "threads_checked": 20,
+   "files": 2,
+   "errors": [
+    "fetch 1xo5al8: /posts/ids {'ids': '1xo5al8'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
   }
  ]
