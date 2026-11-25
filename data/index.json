@@ -836,6 +836,24 @@
    "new_thread": false,
    "comments": 6,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-25/1y3k1o3.json",
+   "run": "2026-11-25",
+   "thread_id": "1y3k1o3",
+   "title": "1 Bedroom Lakeview Sublet Available | Available 12/1 $1795",
+   "new_thread": false,
+   "comments": 2,
+   "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-25/1y3k9ii.json",
+   "run": "2026-11-25",
+   "thread_id": "1y3k9ii",
+   "title": "Clarification on ComEd hourly pricing",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": true
   }
  ],
  "runs": [
@@ -1351,6 +1369,15 @@
    "files": 2,
    "errors": [
     "fetch 1xo5al8: /posts/ids {'ids': '1xo5al8'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
+   ]
+  },
+  {
+   "run": "2026-11-25",
+   "threads_checked": 20,
+   "files": 2,
+   "errors": [
+    "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-18', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
+    "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-18', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
    ]
   }
  ]
