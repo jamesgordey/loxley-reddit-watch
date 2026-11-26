@@ -1379,6 +1379,16 @@
     "search r/chicago 'comed': /posts/search {'subreddit': 'chicago', 'title': 'comed', 'after': '2026-11-18', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. Mayb",
     "search r/illinois 'electric bill': /posts/search {'subreddit': 'illinois', 'title': 'electric bill', 'after': '2026-11-18', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Time"
    ]
+  },
+  {
+   "run": "2026-11-26",
+   "threads_checked": 20,
+   "files": 0,
+   "errors": [
+    "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
+    "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/evanston 'comed': /posts/search {'subreddit': 'evanston', 'title': 'comed', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May"
+   ]
   }
  ]
 }
