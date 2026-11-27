@@ -854,6 +854,15 @@
    "new_thread": false,
    "comments": 1,
    "fresh": true
+  },
+  {
+   "file": "data/runs/2026-11-27/1y14e1t.json",
+   "run": "2026-11-27",
+   "thread_id": "1y14e1t",
+   "title": "ComEd named most reliable utility!",
+   "new_thread": false,
+   "comments": 1,
+   "fresh": false
   }
  ],
  "runs": [
@@ -1388,6 +1397,20 @@
     "search r/AskChicago 'electric bill': /posts/search {'subreddit': 'AskChicago', 'title': 'electric bill', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Ti",
     "search r/chicago 'electric bill': /posts/search {'subreddit': 'chicago', 'title': 'electric bill', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
     "search r/evanston 'comed': /posts/search {'subreddit': 'evanston', 'title': 'comed', 'after': '2026-11-19', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. May"
+   ]
+  },
+  {
+   "run": "2026-11-27",
+   "threads_checked": 19,
+   "files": 1,
+   "errors": [
+    "search r/AskChicago 'comed': /posts/search {'subreddit': 'AskChicago', 'title': 'comed', 'after': '2026-11-20', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout. M",
+    "search r/oakpark 'electric bill': /posts/search {'subreddit': 'oakpark', 'title': 'electric bill', 'after': '2026-11-20', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeo",
+    "search r/ComEd 'electric bill': /posts/search {'subreddit': 'ComEd', 'title': 'electric bill', 'after': '2026-11-20', 'limit': 100, 'sort': 'desc'}: 422 {\"data\":null,\"error\":\"Timeout",
+    "fetch 1xsy20h: /posts/ids {'ids': '1xsy20h'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xulk88: /posts/ids {'ids': '1xulk88'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xun8ym: /posts/ids {'ids': '1xun8ym'}: 429 {\"data\":null,\"error\":\"Too many requests\"}",
+    "fetch 1xvgsq3: /posts/ids {'ids': '1xvgsq3'}: 429 {\"data\":null,\"error\":\"Too many requests\"}"
    ]
   }
  ]
